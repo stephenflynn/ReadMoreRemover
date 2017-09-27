@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "ReadMoreRemover",
+  "version": "1.0",
+
+  "description": "Triggers Continue Reading links on www.huffingtonpost.com for Firefox on Android",
+
+  "icons": {
+    "48": "icons/ic_arrow_downward_black_48dp_1x.png",
+    "96": "icons/ic_arrow_downward_black_48dp_2x.png"    
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.huffingtonpost.com/*"],
+      "js": ["remover.js"]
+    }
+  ]
+
+}
