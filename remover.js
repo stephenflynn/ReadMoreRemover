@@ -11,8 +11,6 @@ switch (currentLocation.host) {
 }
 
 if (selector_name) {
-    document.addEventListener("DOMContentLoaded", function(event) {
         var read_more = document.querySelector(selector_name);
-        read_more.click()
-    });
+        read_more.click();
 }
