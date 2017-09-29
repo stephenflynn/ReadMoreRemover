@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "ReadMoreRemover",
-  "version": "2.3",
+  "version": "2.4",
   "description": "Triggers Continue Reading links on www.huffingtonpost.com for Firefox on Android",
   "icons": {
     "48": "icons/remover.png"
