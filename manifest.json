@@ -13,7 +13,8 @@
       "matches": [
         "*://*.huffingtonpost.com/*",
         "*://*.huffpost.com/*",
-        "*://*.huffingtonpost.co.uk/*"
+        "*://*.huffingtonpost.co.uk/*",
+        "*://*.aol.com/*"
       ],
       "js": ["remover.js"]
     }

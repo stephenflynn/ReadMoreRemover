@@ -6,7 +6,10 @@ switch (currentLocation.host) {
     case "huffpost.com":    
     case "huffingtonpost.co.uk":
     case "huffingtonpost.com":
-    selector_name = '.read-more-link';
+        selector_name = '.read-more-link';
+    break;
+    case "aol.com":
+        selector_name = '.article-show-more';
     break;
 }
 
